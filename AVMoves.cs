@@ -1,7 +1,7 @@
 using UnityEngine;
 
 /// <summary>
-/// Controls AV behaviors, including yielding, mixed, and non-yielding modes, with collision handling
+/// Controls AV behaviors, including yielding, mixed, and non-yielding modes, with collision handling.
 /// </summary>
 public class AVMoves : MonoBehaviour
 {
