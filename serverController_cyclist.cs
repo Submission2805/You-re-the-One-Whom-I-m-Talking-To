@@ -2,8 +2,7 @@ using Mirror;
 using UnityEngine;
 
 /// <summary>
-/// Server-side controller for cyclist. Synchronizes position and rotation of the cyclist
-/// and updates the corresponding data for other connected clients.
+/// Synchronizes cyclist position and rotation data and updates it for connected clients in the simulation.
 /// </summary>
 public class serverController_cyclist: NetworkBehaviour
 {
