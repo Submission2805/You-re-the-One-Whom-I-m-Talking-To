@@ -2,8 +2,7 @@ using Mirror;
 using UnityEngine;
 
 /// <summary>
-/// Server-side controller for the pedestrian. Synchronizes position and rotation data
-/// and manages eHMI interactions in the VR Multi-Agent Simulation platform.
+/// Synchronizes pedestrian movement data and handles eHMI interactions.
 /// </summary>
 public class PedestrianController: NetworkBehaviour
 {
