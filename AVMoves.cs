@@ -1,7 +1,7 @@
 using UnityEngine;
 
 /// <summary>
-/// Autonomous Vehicle (AV) control script for managing yielding and non-yielding behaviors
+/// Controls AV behaviors, including yielding, mixed, and non-yielding modes, with collision handling
 /// </summary>
 public class AVMoves : MonoBehaviour
 {
