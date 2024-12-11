@@ -20,27 +20,6 @@ While the client-side implementations are not included in this repository due to
     - `ExampleData/SampleInput.json`: Example input data to simulate client messages sent to the server for synchronization testing.
     - `ExampleData/SampleOutput.json`: Expected output data processed by the server for verification of correct synchronization logic.
 
-## Instructions for Use
-1. **Set Up the Environment**:
-    - Install Unity (version 2021.3.14f1 or higher).
-    - Install and configure the Mirror API for server-client communication.
-
-2. **Clone the Repository**:
-    Clone the repository to your local machine using the following command:
-    ```bash
-    git clone https://github.com/Submission2805/You-re-the-One-Whom-I-m-Talking-To.git
-    ```
-
-3. **Load the Code**:
-    - Add the provided `.cs` files to your Unity project's `Assets` folder.
-
-4. **Test the Server Logic**:
-   - Open the Unity project and add the `.cs` files to the `Assets` folder.
-   - Load `SampleInput.json` in the Unity editor or through a mock client to simulate cyclist input.
-   - Run the Unity project and observe the server behavior in the console or AV simulation environment.
-   - Verify that the processed output matches `SampleOutput.json` by logging server responses or client updates.
-
-
 ## Notes
 - This repository focuses on server-side logic for the VR Multi-Agent Simulation platform.
 - We are actively preparing a comprehensive open-source API that will include all functionalities described in the manuscript. This API will be released with full documentation and example use cases, ensuring it can support further research and development.
