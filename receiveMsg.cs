@@ -2,8 +2,7 @@ using Mirror;
 using UnityEngine;
 
 /// <summary>
-/// Server-side script for receiving and processing messages to control the behavior
-/// of the Autonomous Vehicle (AV) 
+/// Handles server-side message reception and processes commands to control AV behavior in various interaction scenarios.
 /// </summary>
 public class receiveMsg : NetworkBehaviour
 {
