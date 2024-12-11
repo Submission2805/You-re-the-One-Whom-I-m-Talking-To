@@ -2,8 +2,7 @@ using Mirror;
 using UnityEngine;
 
 /// <summary>
-/// Server-side controller for the driver. Synchronizes position, rotation, and additional vehicle-specific data
-/// for connected clients in a VR simulation.
+/// Manages driver position, rotation, and vehicle-specific data (e.g., wheel rotations) for accurate simulation of manual vehicle dynamics.
 /// </summary>
 public class serverController_driver: NetworkBehaviour
 {
